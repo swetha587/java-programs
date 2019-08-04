@@ -1,0 +1,16 @@
+import java.util.*;
+class Input
+{
+ public static void main(String args[])
+ {
+  int a;
+  String s;
+  System.out.print("enter no");
+  Scanner ob=new Scanner(System.in);
+ a=ob.nextInt();
+ System.out.print("entered no="+a);
+System.out.print("enter string");
+  s=ob.nextLine();
+ System.out.print("entered string="+s);
+}
+}
